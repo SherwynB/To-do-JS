@@ -1,2 +1,4 @@
 const addToDoCmd = require("./add-todo.cmd.js")
-module.exports = [addToDoCmd];
+const allToDoCmd = require("./all-todo.cmd.js") 
+
+module.exports = [addToDoCmd, allToDoCmd];
